@@ -1,0 +1,15 @@
+Validation date: 2026-11-06 (Asia/Taipei)
+Host: macOS, Apple Clang, C++14.
+Main application: compiled and linked successfully; compiler diagnostics empty.
+C++ regression program: compiled and linked successfully; compiler diagnostics empty.
+Sanitizers: AddressSanitizer + UndefinedBehaviorSanitizer.
+Regression output: All HSMS regression groups passed
+Integration output: 113 integration checks passed
+VS project XML and source-path validation: passed; PlatformToolset v145, x64 Debug/Release.
+Microsoft Visual Studio 2026 v145 compiler: NOT RUN (not installed on host).
+Windows 11 x64 execution: NOT RUN (not available on host).
+External MQ / transaction DLL interoperability: NOT RUN (DLLs not supplied).
+No Windows EXE is included. Run windows/build-and-test.cmd on target Windows host.
+Additional regression: bounded S/F name parsing, non-NUL name rejection, Function 255 reply rejection, output stream failures and encoded header verification: PASSED.
+Additional regression: bounded S/F name parsing, non-NUL name rejection, Function 255 reply rejection, output stream failures and encoded header verification: PASSED.
+Additional regression: bounded S/F name parsing, non-NUL name rejection, Function 255 reply rejection, output stream failures and encoded header verification: PASSED.

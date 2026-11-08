@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.0.0.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "hsms", "hsms.vcxproj", "{F4B31A10-AD9F-47EF-AC56-95869DA0D710}"
+EndProject
+Project("{BC8A1FFA-BEE3-4634-8014-F334798102B3}") = "hsms_tests", "hsms_tests.vcxproj", "{862E2779-5DF2-454A-B2B8-A76229BC995A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F4B31A10-AD9F-47EF-AC56-95869DA0D710} = {F4B31A10-AD9F-47EF-AC56-95869DA0D710}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4B31A10-AD9F-47EF-AC56-95869DA0D710}.Debug|x64.ActiveCfg = Debug|x64
+		{F4B31A10-AD9F-47EF-AC56-95869DA0D710}.Debug|x64.Build.0 = Debug|x64
+		{F4B31A10-AD9F-47EF-AC56-95869DA0D710}.Release|x64.ActiveCfg = Release|x64
+		{F4B31A10-AD9F-47EF-AC56-95869DA0D710}.Release|x64.Build.0 = Release|x64
+		{862E2779-5DF2-454A-B2B8-A76229BC995A}.Debug|x64.ActiveCfg = Debug|x64
+		{862E2779-5DF2-454A-B2B8-A76229BC995A}.Debug|x64.Build.0 = Debug|x64
+		{862E2779-5DF2-454A-B2B8-A76229BC995A}.Release|x64.ActiveCfg = Release|x64
+		{862E2779-5DF2-454A-B2B8-A76229BC995A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+EndGlobal
